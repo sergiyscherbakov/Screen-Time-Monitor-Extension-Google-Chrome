@@ -19,7 +19,7 @@
 
 1. Завантажте або клонуйте цей репозиторій:
    ```bash
-   git clone <url-репозиторію>
+   git clone https://github.com/sergiyscherbakov/Screen-Time-Monitor-Extension-Google-Chrome.git
    ```
 
 2. Створіть іконки для розширення:
