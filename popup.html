@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Моніторинг екранного часу</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>⏱️ Екранний час</h1>
+      <div class="header-actions">
+        <button id="resetBtn" class="btn-reset" title="Скинути статистику">🔄</button>
+      </div>
+    </header>
+
+    <div class="stats-summary">
+      <div class="stat-card">
+        <div class="stat-label">Сьогодні</div>
+        <div class="stat-value" id="todayTotal">0 хв</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Цього тижня</div>
+        <div class="stat-value" id="weekTotal">0 хв</div>
+      </div>
+    </div>
+
+    <div class="filter-tabs">
+      <button class="tab active" data-period="today">Сьогодні</button>
+      <button class="tab" data-period="week">Тиждень</button>
+      <button class="tab" data-period="all">Все</button>
+    </div>
+
+    <div class="sites-list" id="sitesList">
+      <div class="loading">Завантаження...</div>
+    </div>
+
+    <footer>
+      <div class="export-section">
+        <button id="exportBtn" class="btn-export">📊 Експорт даних</button>
+      </div>
+    </footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

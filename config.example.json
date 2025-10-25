@@ -1,0 +1,65 @@
+{
+  "settings": {
+    "trackingEnabled": true,
+    "autoSaveInterval": 10000,
+    "dataRetentionDays": 30,
+    "showNotifications": false
+  },
+  "limits": {
+    "enabled": false,
+    "sites": {
+      "facebook.com": {
+        "dailyLimit": 1800,
+        "warningAt": 1500
+      },
+      "youtube.com": {
+        "dailyLimit": 3600,
+        "warningAt": 3000
+      }
+    }
+  },
+  "categories": {
+    "work": [
+      "github.com",
+      "stackoverflow.com",
+      "docs.google.com"
+    ],
+    "social": [
+      "facebook.com",
+      "instagram.com",
+      "twitter.com"
+    ],
+    "entertainment": [
+      "youtube.com",
+      "netflix.com",
+      "twitch.tv"
+    ],
+    "news": [
+      "bbc.com",
+      "cnn.com",
+      "pravda.com.ua"
+    ],
+    "education": [
+      "coursera.org",
+      "udemy.com",
+      "khanacademy.org"
+    ]
+  },
+  "theme": {
+    "mode": "light",
+    "accentColor": "#667eea"
+  },
+  "export": {
+    "autoExport": false,
+    "exportFormat": "json",
+    "exportPath": "downloads"
+  },
+  "privacy": {
+    "trackIncognito": false,
+    "excludeSites": [
+      "chrome://",
+      "chrome-extension://",
+      "localhost"
+    ]
+  }
+}

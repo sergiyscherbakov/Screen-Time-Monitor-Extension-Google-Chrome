@@ -1,0 +1,35 @@
+# Exported data files
+screen-time-export-*.json
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.log
+
+# Node modules (if added in future)
+node_modules/
+
+# Build files (if added in future)
+dist/
+build/
+
+# Private config files
+config.json
+*.key
+*.pem
+
+# OS specific
+.Spotlight-V100
+.Trashes
+ehthumbs.db
